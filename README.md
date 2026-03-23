@@ -20,7 +20,7 @@ Dream text → AI transforms to cinematic prompt → Queue → Browser automatio
 ### Via skills CLI
 
 ```bash
-npx skills add user/dream-to-video-skill -s dream-to-video
+npx skills add mediastormDev/dream-to-video-skill -s dream-to-video
 ```
 
 ### Manual install
@@ -28,7 +28,7 @@ npx skills add user/dream-to-video-skill -s dream-to-video
 Clone the repo and symlink the skill directory into your agent's skill folder:
 
 ```bash
-git clone https://github.com/user/dream-to-video-skill.git
+git clone https://github.com/mediastormDev/dream-to-video-skill.git
 mkdir -p ~/.claude/skills
 ln -s "$(pwd)/dream-to-video-skill/skills/dream-to-video" ~/.claude/skills/dream-to-video
 ```
@@ -44,7 +44,7 @@ ln -s "$(pwd)/dream-to-video-skill/skills/dream-to-video" ~/.claude/skills/dream
 After installing the skill, clone this repo to get the Python toolchain:
 
 ```bash
-git clone https://github.com/user/dream-to-video-skill.git
+git clone https://github.com/mediastormDev/dream-to-video-skill.git
 cd dream-to-video-skill/dream_to_video
 pip install -r requirements.txt
 playwright install chromium

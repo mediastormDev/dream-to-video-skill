@@ -31,7 +31,7 @@ metadata:
 **Step 0-0：克隆项目仓库**
 询问用户希望把项目放在哪个目录，然后执行：
 ```bash
-cd "<用户指定的目录>" && git clone https://github.com/user/dream-to-video-skill.git && cd dream-to-video-skill
+cd "<用户指定的目录>" && git clone https://github.com/mediastormDev/dream-to-video-skill.git && cd dream-to-video-skill
 ```
 clone 完成后的 `dream-to-video-skill` 目录即为 `{W}`。
 如果用户说"就在当前目录"，则在当前目录下 clone。
