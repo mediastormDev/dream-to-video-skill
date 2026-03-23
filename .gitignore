@@ -9,6 +9,9 @@ dream_to_video/output/
 dream_to_video/data/
 dream_to_video/auth/browser_profile/
 
+# Claude Code local config
+.claude/settings.json
+
 # OS
 .DS_Store
 Thumbs.db
