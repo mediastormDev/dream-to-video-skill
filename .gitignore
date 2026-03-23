@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Runtime data
+dream_to_video/output/
+dream_to_video/data/
+dream_to_video/auth/browser_profile/
+
+# OS
+.DS_Store
+Thumbs.db
