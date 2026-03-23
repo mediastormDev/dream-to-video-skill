@@ -37,7 +37,14 @@ ln -s "$(pwd)/dream-to-video-skill/skills/dream-to-video" ~/.claude/skills/dream
 
 - Python >= 3.10
 - Chromium (installed via Playwright)
-- Anthropic API key (for dream-to-prompt transformation)
+- An API key from any supported provider:
+
+| Provider | Model | Get a key |
+|----------|-------|-----------|
+| **Claude** (default) | claude-sonnet-4 | [console.anthropic.com](https://console.anthropic.com/settings/keys) |
+| **OpenAI** | gpt-4o | [platform.openai.com](https://platform.openai.com/api-keys) |
+| **OpenRouter** | any model | [openrouter.ai](https://openrouter.ai/keys) |
+| **Google Gemini** | gemini-2.5-flash | [aistudio.google.com](https://aistudio.google.com/apikey) |
 
 ## Setup
 

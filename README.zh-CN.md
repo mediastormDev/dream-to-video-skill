@@ -35,7 +35,14 @@ ln -s "$(pwd)/dream-to-video-skill/skills/dream-to-video" ~/.claude/skills/dream
 
 - Python >= 3.10
 - Chromium（通过 Playwright 安装）
-- Anthropic API Key（用于梦境转提示词）
+- 以下任一 API 提供商的 Key：
+
+| 提供商 | 模型 | 获取 Key |
+|--------|------|----------|
+| **Claude**（默认） | claude-sonnet-4 | [console.anthropic.com](https://console.anthropic.com/settings/keys) |
+| **OpenAI** | gpt-4o | [platform.openai.com](https://platform.openai.com/api-keys) |
+| **OpenRouter** | 任意模型 | [openrouter.ai](https://openrouter.ai/keys) |
+| **Google Gemini** | gemini-2.5-flash | [aistudio.google.com](https://aistudio.google.com/apikey) |
 
 ## 配置
 
